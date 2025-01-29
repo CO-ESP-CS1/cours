@@ -1,0 +1,54 @@
+
+  
+  .main-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    /*text-decoration: underline;*/
+  }
+  
+  .domain {
+    color: #4a4aff;
+  }
+  
+  .chapters {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .chapter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a4aff81;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   /* border: 1px solid #ccc;*/
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    background-color: #002a7f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #4a4aff;
+  }
+  
+  

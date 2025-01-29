@@ -1,0 +1,137 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  .header {
+    background: linear-gradient(135deg, #6c63ff, #4a4aff);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+  }
+  
+ 
+  .section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    color: #4a4aff;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .member {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .member h3 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .member p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  
+  .values-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .value {
+    flex: 1 1 30%;
+    margin: 20px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .value h3 {
+    color: #4a4aff;
+    margin-bottom: 10px;
+  }
+  
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background: #4a4aff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background: #6c63ff;
+  }
+  
+ 
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
